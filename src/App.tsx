@@ -1,9 +1,10 @@
+import SummaryResult from "components/SummaryResult.tsx";
+
 function App() {
   return (
-  <>
-  <h1 className="text-3xl font-bold underline text-red-800">Hello world!</h1>
-  <p>hhhhhh</p>
-  </>
+    <div className="flex justify-center items-center h-screen">
+      <SummaryResult />
+    </div>
   );
 }
 
