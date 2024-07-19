@@ -30,8 +30,9 @@ const SummaryResult = () => {
           ))}
         </div>
 
-        <button className="bg-n-gray-blue rounded-full text-white p-4">
-          Continue
+        <button className="bg-n-gray-blue rounded-full text-white p-4 relative overflow-hidden">
+          <span className="relative z-10">Continue</span>
+          <span className="absolute inset-0 bg-gradient-blue opacity-0 hover:opacity-100 transition-opacity duration-500 ease-in-out"></span>
         </button>
       </div>
     </div>
