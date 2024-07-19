@@ -1,9 +1,9 @@
-import { summary, SummaryItemProps } from "src/data.ts";
-import SummaryItem from "components/SummaryItem";
+import { summary, SummaryItemProps } from "../data.ts";
+import SummaryItem from "./SummaryItem";
 
 const SummaryResult = () => {
   return (
-    <div className="grid grid-rows-2 md:grid-cols-2 md:grid-rows-1 md:w-[736px] md:h-[524px] bg-white shadow-[0_19px_50px_14px_rgba(0,0,0,0.25)] shadow-n-pale-blue md:rounded-[30px]">
+    <div className="grid grid-rows-2 md:grid-cols-2 md:grid-rows-1 md:w-[736px] md:h-[524px] bg-white md:shadow-[0_19px_50px_14px_rgba(0,0,0,0.25)] shadow-n-pale-blue md:rounded-[30px]">
       <div
         id="result"
         className="bg-gradient-blue flex flex-col gap-4 md:gap-8 items-center text-center justify-center text-white rounded-b-[30px] md:rounded-[30px]"
@@ -26,7 +26,7 @@ const SummaryResult = () => {
         <h2 className="text-2xl	text-n-gray-blue font-bold">Summary</h2>
         <div className="flex flex-col gap-4">
           {summary.map((item: SummaryItemProps, index: number) => (
-            <SummaryItem key={index} item={item}></SummaryItem>
+            <SummaryItem key={index} {...item}></SummaryItem>
           ))}
         </div>
 

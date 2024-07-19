@@ -5,11 +5,11 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   base: "/fem_result_component/",
-  resolve: {
-    alias: {
-      src: "/src",
-      components: "/src/components",
-      assets: "/src/assets/",
-    },
-  },
+  // resolve: {
+  //   alias: {
+  //     src: "/src",
+  //     components: "/src/components",
+  //     assets: "/src/assets/",
+  //   },
+  // },
 });
