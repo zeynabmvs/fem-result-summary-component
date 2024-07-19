@@ -3,7 +3,7 @@ export interface SummaryItemProps {
   category: string;
   score: number;
   icon: string;
-  variant: string
+  variant: 'red' | 'blue' | 'green' | 'yellow';
 }
 
 export const summary: SummaryItemProps[] = [

@@ -28,4 +28,14 @@ export default {
     },
   },
   plugins: [],
+  safelist: [
+    'text-primary-red',
+    'text-primary-yellow',
+    'text-primary-green',
+    'text-primary-blue',
+    'bg-primary-red',
+    'bg-primary-yellow',
+    'bg-primary-green',
+    'bg-primary-blue',
+  ],
 };

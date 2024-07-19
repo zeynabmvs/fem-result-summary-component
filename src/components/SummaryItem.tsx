@@ -1,10 +1,13 @@
 import { SummaryItemProps } from "../data";
 
-const SummaryItem: React.FC<SummaryItemProps> = ({ category, score, icon, variant }) => {
-  const bgColor = `bg-primary-${variant}`
-  const textColor = `text-primary-${variant}`
-
-  console.log(bgColor, textColor)
+const SummaryItem: React.FC<SummaryItemProps> = ({
+  category,
+  score,
+  icon,
+  variant,
+}) => {
+  const bgColor = `bg-primary-${variant}`;
+  const textColor = `text-primary-${variant}`;
 
   return (
     <div
@@ -14,7 +17,8 @@ const SummaryItem: React.FC<SummaryItemProps> = ({ category, score, icon, varian
         <img src={icon} alt={`${category} icon`} />
         <h4 className={textColor}>{category}</h4>
       </div>
-      <span className="text-n-gray-blue">{score}
+      <span className="text-n-gray-blue">
+        {score}
         <span className="opacity-50"> / 100</span>
       </span>
     </div>
