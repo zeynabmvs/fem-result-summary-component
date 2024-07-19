@@ -1,5 +1,5 @@
 {
-  "name": "fem_result_component",
+  "name": "fem-result-summary-component",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +11,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-  "homepage": "https://zeynab.mvs.github.io/fem_result_component/",
+  "homepage": "https://zeynab.mvs.github.io/fem-result-summary-component/",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
