@@ -1,5 +1,5 @@
 import { summary, SummaryItemProps } from "src/data.ts";
-// import SummaryItem from "components/SummaryItem"
+import SummaryItem from "components/SummaryItem"
 
 const SummaryResult = () => {
     return (
@@ -21,10 +21,17 @@ const SummaryResult = () => {
 
       <div
         id="summary"
-        className="rounded-tr-[30px] rounded-br-[30px] flex flex-col justify-start"
+        className="rounded-tr-[30px] rounded-br-[30px] flex flex-col justify-start gap-4 p-12"
       >
-        <h2>Summary</h2>
+        <h2 className="text-2xl	text-n-gray-blue">Summary</h2>
+        <div className="flex flex-col gap-4">
+        {summary.map((item:SummaryItemProps, index: number) => (
+          <SummaryItem key={index} item={item}></SummaryItem>
+        ))}
+        </div>
 
+        <button className="bg-n-gray-blue rounded-full text-white p-4">Continue</button>
+       
       </div>
     </div>
   );

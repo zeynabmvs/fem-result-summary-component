@@ -3,27 +3,32 @@ export interface SummaryItemProps {
   category: string;
   score: number;
   icon: string;
+  variant: string
 }
 
 export const summary: SummaryItemProps[] = [
   {
     category: "Reaction",
     score: 80,
-    icon: "assets/images/icon-reaction.svg",
+    icon: "src/assets/images/icon-reaction.svg",
+    variant: "red"
   },
   {
     category: "Memory",
     score: 92,
-    icon: "assets/images/icon-memory.svg",
+    icon: "src/assets/images/icon-memory.svg",
+    variant: "yellow"
   },
   {
     category: "Verbal",
     score: 61,
-    icon: "assets/images/icon-verbal.svg",
+    icon: "src/assets/images/icon-verbal.svg",
+    variant: "green"
   },
   {
     category: "Visual",
     score: 72,
-    icon: "assets/images/icon-visual.svg",
+    icon: "src/assets/images/icon-visual.svg",
+    variant: "blue"
   },
 ];
