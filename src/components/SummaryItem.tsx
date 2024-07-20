@@ -15,7 +15,7 @@ const SummaryItem: React.FC<SummaryItemProps> = ({
     >
       <div className="flex gap-2">
         <img src={icon} alt={`${category} icon`} />
-        <h3 className={textColor}>{category}</h3>
+        <h2 className={textColor}>{category}</h2>
       </div>
       <span className="text-n-gray-blue">
         {score}
