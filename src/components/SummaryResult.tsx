@@ -3,7 +3,7 @@ import SummaryItem from "./SummaryItem";
 
 const SummaryResult = () => {
   return (
-    <div className="grid grid-rows-2 md:grid-cols-2 md:grid-rows-1 md:w-[736px] md:h-[524px] bg-white md:shadow-[0_19px_50px_14px_rgba(0,0,0,0.25)] md:shadow-n-pale-blue md:rounded-[30px]">
+    <section className="grid grid-rows-2 md:grid-cols-2 md:grid-rows-1 md:w-[736px] md:h-[524px] bg-white md:shadow-[0_19px_50px_14px_rgba(0,0,0,0.25)] md:shadow-n-pale-blue md:rounded-[30px]">
       <div
         id="result"
         className="bg-gradient-blue flex flex-col gap-4 md:gap-8 items-center text-center justify-center text-white rounded-b-[30px] md:rounded-[30px]"
@@ -35,7 +35,7 @@ const SummaryResult = () => {
           <span className="absolute inset-0 bg-gradient-blue opacity-0 hover:opacity-100 transition-opacity duration-500 ease-in-out"></span>
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 
