@@ -1,5 +1,5 @@
-import { summary, SummaryItemProps } from "src/data.ts";
-import SummaryItem from "components/SummaryItem";
+import { summary, SummaryItemProps } from "../data.ts";
+import SummaryItem from "./SummaryItem";
 
 const SummaryResult = () => {
   return (

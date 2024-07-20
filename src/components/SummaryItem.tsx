@@ -1,4 +1,4 @@
-import { SummaryItemProps } from "components/data";
+import { SummaryItemProps } from "../data";
 
 const SummaryItem: React.FC<SummaryItemProps> = ({
   category,
