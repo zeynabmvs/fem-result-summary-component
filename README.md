@@ -42,6 +42,7 @@ Users should be able to:
 
 - Typescript
 - Vercel
+- Vite
 - [React 18](https://react.dev/) - JS library
 - Tailwindcss
 
