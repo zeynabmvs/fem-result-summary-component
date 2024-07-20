@@ -1,4 +1,4 @@
-import SummaryResult from "./components/SummaryResult.tsx";
+import SummaryResult from "components/SummaryResult.tsx";
 
 function App() {
   return (
