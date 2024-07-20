@@ -8,12 +8,12 @@ const SummaryResult = () => {
         id="result"
         className="bg-gradient-blue flex flex-col gap-4 md:gap-8 items-center text-center justify-center text-white rounded-b-[30px] md:rounded-[30px]"
       >
-        <h2 className="text-2xl opacity-50">Your Result</h2>
+        <h1 className="text-2xl opacity-50">Your Result</h1>
         <div className="flex flex-col gap-3 justify-center items-center size-[173px] rounded-full bg-gradient-circle">
-          <h3 className="text-6xl font-extrabold">76</h3>
+          <h2 className="text-6xl font-extrabold">76</h2>
           <p className="opacity-50">of 100</p>
         </div>
-        <h3 className="text-[2rem]">Great</h3>
+        <h2 className="text-[2rem]">Great</h2>
         <p className="opacity-50 w-8/12">
           You scored higher than 65% of the people who have taken these tests.
         </p>
@@ -23,7 +23,7 @@ const SummaryResult = () => {
         id="summary"
         className="md:rounded-tr-[30px] md:rounded-br-[30px] flex flex-col justify-start gap-4 p-8 md:p-12"
       >
-        <h2 className="text-2xl	text-n-gray-blue font-bold">Summary</h2>
+        <h1 className="text-2xl	text-n-gray-blue font-bold">Summary</h1>
         <div className="flex flex-col gap-4">
           {summary.map((item: SummaryItemProps, index: number) => (
             <SummaryItem key={index} {...item}></SummaryItem>
